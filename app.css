@@ -1,0 +1,369 @@
+
+h3 {
+    font-size: 24px;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+/*.navbar {*/
+/*position: absolute;*/
+/*min-height: 50px;*/
+/*background: transparent;*/
+/*margin-bottom: 0;*/
+/*padding-left: 0;*/
+/*list-style: none;*/
+
+/*}*/
+
+header {
+    margin-left: 0px;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    height: 768px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url("http://cdn.yichicloud.com/assets/landing-header-fc5b4f36e62c51dbeb4c56951dc9cc3d7551469229567d0953b607e143e0c12b.jpg");
+    text-align: center;
+    color: white
+}
+
+.navbar-default {
+    background: #06B4EF;
+    /*opacity: 0.9;*/
+    border-color: transparent;
+    /*padding-left: 300px;*/
+}
+
+.nav-text {
+    /*color: white !important;*/
+}
+
+.navbar-fixed-top{
+    padding: 0 5%;
+}
+.navbar-header{
+    /*margin-left: 100px;*/
+}
+.navbar-brand {
+    /*color:white !important;*/
+    /*margin-right: 100px;*/
+}
+.navbar1{
+    position: absolute;
+    left:40%;
+}
+.header-content-inner {
+    padding: 200px 15px 100px;
+
+    width: 100%
+}
+
+header .header-content .header-content-inner h1, header .header-content .header-content-inner h4 {
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.tooth-icon {
+    background-image: url("http://cdn.yichicloud.com/assets/tooth-icon-b41aa4444d646b8d18ef81ac7c2e35317bf99900e1b9c8fe65175e1278cea9d2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 138px;
+    height: 148px;
+    margin: 0 auto 50px
+}
+
+.tooth-logo {
+    /*background-image: url("http://cdn.yichicloud.com/assets/tooth-logo-blue-0ef9ffff7123c9efc3305ca51bea398963dab9b8da6ef0639150bacbf4b9aa69.svg");*/
+    background-image: url("http://cdn.yichicloud.com/assets/tooth-logo-white-3b287e52eda30d07363e87afe004b7f774b07c7370f16613e539765477bf1b19.svg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 21px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.btn-default {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #ffffff;
+    border-color: #FFFFFF;
+    border-radius: 25px;
+    background-color: transparent;
+
+}
+
+.btn-login {
+    width: 80px;
+    align-content: center;
+    position: relative;
+    margin-right: 10px;
+    border: 1px solid #06B4EF;
+    /*width: 80px;*/
+    line-height: 0;
+    /*height: 36px;*/
+    background: #06B4EF;
+}
+
+.btn-login:hover {
+    transition-duration: 0.5s;
+    border-color: white;
+    color: #06B4EF ;
+}
+
+.navbar-right a {
+    margin-top: 9px;
+}
+
+.btn-register {
+    width: 80px;
+    border: 1px solid white;
+    /*height: 36px;*/
+    line-height: 0;
+    color: transparent;
+}
+
+.btn-top {
+    border-radius: 25px;
+
+}
+
+
+.denglu {
+    /*background: #000;*/
+}
+
+.btn-default:hover {
+    color: #06B4EF;
+    background-color: #fff;
+    border-color: #fff;
+    transition-duration: 0.3s;
+}
+
+hr {
+    width: 88px;
+    border-color: #06B4EF;
+}
+
+#core-business {
+    padding-top: 139px;
+    padding-bottom: 88px;
+    height: 100%;
+}
+
+#main-features {
+    padding-top: 139px;
+    padding-bottom: 141px;
+    height: 100%;
+}
+
+#platform-products {
+    padding-top: 139px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.platform {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#user-case {
+    padding-top: 139px;
+    padding-bottom: 100px;
+    height: 100%;
+}
+
+#team-members {
+    padding-top: 139px;
+    padding-bottom: 100px;
+    height: 100%;
+}
+
+.bossname {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    background: #06B4EF;
+}
+
+.service-box i {
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block
+}
+
+.divider {
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.refined-management {
+    width: 155px;
+    height: 115px;;
+
+    background-image: url("http://cdn.yichicloud.com/assets/refined-management-11106d89749863760e306cd3a2c3573114a5d9c942b17d33dcaec4e765c76c02.svg")
+}
+
+.data-drive-operation {
+    width: 128px;;
+    height: 122.4px;
+    background-image: url("http://cdn.yichicloud.com/assets/data-drive-operation-729309d3708d2bbaf792f63be30d35558353076b88b590f33e823dc803531e50.svg")
+}
+
+.info-traceable {
+    width: 140.2px;
+    height: 131.4px;;
+    background-image: url("http://cdn.yichicloud.com/assets/info-traceable-0da83ff5c1394d468d3f97a12b13403ab162a085b7c83e2c7680135e38f8e92e.svg")
+}
+
+.one-click-order {
+    width: 62px;
+    height: 68px;
+    background-image: url("http://cdn.yichicloud.com/assets/one-click-order-c84407e03e1a299e44054e49a790115da88a226920ce5d1db1020a9e01948974.svg")
+}
+
+.process-management {
+    width: 69.6px;
+    height: 64.1px;
+    background-image: url("http://cdn.yichicloud.com/assets/process-management-82ef5c5db933f2dd7eba1f506efc0645a28ef0b4e90475c1abdce6c89fb46fcd.svg")
+}
+
+.distribution-system {
+    width: 67.8px;
+    height: 67.3px;
+    background-image: url("http://cdn.yichicloud.com/assets/distribution-system-62390eaad89b8d70dbf6bff7c169975edec9fe84f405902e6ceb58963e726a37.svg")
+}
+
+.online-check {
+    width: 64px;
+    height: 64px;
+    background-image: url("http://cdn.yichicloud.com/assets/online-check-e6dca251dea350175cb2d6cfe78004644f78ebe472081aaa93c12fea33ade940.svg")
+}
+
+.data-statistics {
+    width: 57.6px;
+    height: 66.1px;
+    background-image: url("http://cdn.yichicloud.com/assets/data-statistics-ceae84ac4e9e2e02952b4e8b17fcea9210c2ed975efff6ad7e5fc195e9922010.svg")
+}
+
+.platform {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.saas {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 200px;
+    height: 105px;
+    background-image: url("http://cdn.yichicloud.com/assets/saas-137aff1a553b29b56d19f0c4c8eb5e4c5c0e2fef04671a59b079363650de1ba8.png")
+}
+
+.app {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 200px;
+    height: 105px;
+    background-image: url("http://cdn.yichicloud.com/assets/app-79000c84433d257d74d25931e41660c10a1f7eff2e517f1289f1e5bbd4976baa.png")
+}
+
+.api {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    width: 200px;
+    height: 105px;
+    background-image: url("http://cdn.yichicloud.com/assets/api-b356449c4d1217349279613b0a601707d50433ca26ffd36daec22bf248dda46b.png")
+}
+
+.sample-table {
+    background-image: url("http://cdn.yichicloud.com/assets/sample-table-85c7975c89108e9b8870f78573e413e75f724e7629f5cb2108f31db602f4033b.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    display: inline-block
+}
+
+.footer-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    top: 4px
+}
+
+.footer .phone {
+    background-image: url("http://cdn.yichicloud.com/assets/phone-0be0ea32ff2099b2378563a8ef9805be958405ea78fcb8b83f15ea00b79d5940.svg")
+}
+
+.footer .e-mail {
+    background-image: url("http://cdn.yichicloud.com/assets/mail-072a0a0fe434a997e6233f434e25d0dc1673602365287f61c5742442528bd7d6.svg")
+}
+
+#contact-us.footer a, #contact-us.footer span {
+    color: #fff;
+    padding: 5px 0;
+    display: inline-block;
+    font-weight: 100
+}
+
+.ceo, .cpo, .cto {
+    display: inline-block;
+    background: #06B4EF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.btn-chakan {
+    border-radius: 25px;
+    background: #06B4EF;
+    color: #FFFFFF;
+
+}
+
+.btn-chakan:hover {
+    color: #06B4EF;
+    background-color: #fff;
+    border-color: #fff;
+    transition-duration: 0.3s;
+}
